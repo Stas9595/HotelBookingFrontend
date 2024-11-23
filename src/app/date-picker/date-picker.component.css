@@ -1,0 +1,30 @@
+.datepicker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.azure-blue-datepicker {
+  width: 300px;
+  text-align: center;
+
+  mat-form-field {
+    width: 100%;
+    color: #007FFF;
+  }
+
+  mat-datepicker-toggle {
+    color: #007FFF;
+  }
+
+  input {
+    border-bottom: 2px solid #007FFF;
+    &:focus {
+      border-bottom: 3px solid #005FCC;
+    }
+  }
+}
+
+.mat-datepicker-content {
+  width: 300px !important;
+}
